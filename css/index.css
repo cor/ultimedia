@@ -1,63 +1,29 @@
-header .title {
-	width: 400px;
-	height: 100px;
-
-	position: absolute;
-	left: -20px;
-	top: 0px;
-
-	background-color:  #F8941C;
-	color: white;
-
-	font-family: Futura;
-	font-size: 30px;
-
-	text-align: center;
-	vertical-align: middle;
-	line-height: 30px; 
-}
-
-header  {
-	width: 900px;
-	height: 100px;
-
-	position: absolute;
-	left : 50%;
-	top: 50px;
-	margin-left: -450px;
-
-}
-
-header .navbar {
-
-	width: 520px;
-	height: 50px;
-
-	position: absolute;
-	top: 50px;
-	left: 380px;
-
-	background-color: #00525E;
-	color: white;
-
-	font-size: 25px;
-	font-family: helvetica;
-
-	text-align: center;
-	vertical-align: middle;
-	line-height: 50px;
-
-}
-
 .content {
-	width: 900px;
-	height: 2000px;
+	height: 1000px;
+}
+footer {
+	top: 1150px;
+}
 
-	position: absolute;
-	top: 150px;
-	left: 50%;
-	margin-left: -450px;
+.preview {
+	width: 280px;
+	height: 400px;
 
-	background-color: #FAFFF3;
+	position:  absolute;
 
+	background-color: red;
+}
+
+.p1 {
+	left: 15px;
+	top: 15px;
+}
+.p2 {
+	left: 310px;
+	top: 15px;
+}
+
+.p3 {
+	left: 605px;
+	top: 15px;
 }
