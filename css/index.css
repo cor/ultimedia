@@ -5,6 +5,7 @@ footer {
 	top: 1150px;
 }
 
+/* Preview styling */
 .preview {
 	width: 280px;
 	height: 400px;
@@ -12,10 +13,10 @@ footer {
 	position:  absolute;
 
 	border-radius: 10px;
-	border-bottom: 5px solid black;
+	border-bottom: 5px solid #585858;
 
 
-	background-color: #fff3d8;
+	background-color: white;
 }
 .preview .previewTitel {
 	margin-top: 0px;
@@ -31,14 +32,17 @@ footer {
 	margin-top: 0px;
 	margin-bottom: -20px;
 	
+	font-size: 13px;
 	font-family: 'Roboto', sans-serif;
 
 	color: #00525E;
 }
 .preview p {
-	padding: 10px;
 
 	margin-top: 0px;
+
+	padding: 10px;
+
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 300;
 }
@@ -47,39 +51,17 @@ footer {
 	font-weight: bold;
 }
 .previewImage {
-	/*background:url("img/dogecar.jpg") no-repeat center center;*/
-	width: 280px;
-	height: 280px;
+	width: auto;
+	max-width:280px;	
+	height: auto;
+	max-height:280px;
 
 	display: block;
-	max-width:280px;	
-	max-height:280px;
-	width: auto;
-	height: auto;
 
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-
-	background-color: blue;
-}
-.previewImage img  {
-	display: block;
-	max-width:280px;
-	max-height:280px;
-	width: auto;
-	height: auto;
 }
 
-.p1 {
-	left: 15px;
-	top: 15px;
-}
-.p2 {
-	left: 310px;
-	top: 15px;
-}
-
-.p3 {
-	left: 605px;
-	top: 15px;
-}
+.p1 {left: 15px; 	top: 15px; }
+.p2 {left: 310px; 	top: 15px; }
+.p3 {left: 605px; 	top: 15px; }

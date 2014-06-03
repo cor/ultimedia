@@ -16,15 +16,19 @@ header .title {
 	left: -20px;
 	top: 0px;
 
-	background-color:  #F8941C;
-	color: white;
-
 	font-family: Futura;
 	font-size: 30px;
 
 	text-align: center;
 	vertical-align: middle;
 	line-height: 30px; 
+
+	background-color:  #F8941C;
+	color: white;
+}
+
+header .title a {
+	text-decoration: none;
 }
 
 header  {
@@ -46,18 +50,20 @@ header .navbar {
 	position: absolute;
 	top: 50px;
 	left: 380px;
-
-	background-color: #00525E;
-	color: white;
-
+	
 	font-size: 25px;
 	font-family: helvetica;
+	font-weight: lighter;
 
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
 
+	background-color: #00525E;
+	color: white;
+
 }
+
 footer {
 	width: 900px;
 	height: 100px;
@@ -79,5 +85,34 @@ footer {
 	margin-left: -450px;
 
 	background-color: #FAFFF3;
+
+}
+
+.articleContainer {
+	width: 800px;
+	height: 100%;
+	
+	margin: 30px;
+	padding: 20px;
+
+	border-radius: 20px;
+	background-color: white;
+}
+
+.articleContainer h1 {
+	color: #F8941C;
+}
+
+.articleContainer img {
+	width: auto;
+	max-width:840px;	
+	height: auto;
+	/*max-height:/*800px*/
+
+	display: block;
+	margin: -20px;
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 
 }
