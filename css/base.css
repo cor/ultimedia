@@ -88,6 +88,7 @@ footer {
 
 }
 
+
 .articleContainer {
 	width: 800px;
 	height: 100%;
@@ -101,9 +102,30 @@ footer {
 
 .articleContainer h1 {
 	color: #F8941C;
+	margin-bottom: 0;
+}
+.articleContainer h2 {
+	padding-bottom: 0;
+
+	font-size: 18px;
+	font-weight: bold;
 }
 
-.articleContainer img {
+.articleContainer p {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.articleAuthor {
+	margin-top: 0;
+	padding-top: 0;
+		
+	font-weight: bold;
+
+	color: #00525E;
+}
+
+.coverImage {
 	width: auto;
 	max-width:840px;	
 	height: auto;
