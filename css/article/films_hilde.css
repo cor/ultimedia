@@ -1,0 +1,32 @@
+
+#image1 {
+	width: 90px;
+
+	float: right;
+	margin-left: 10px;
+}
+
+#image2 {
+	width: 100px;
+
+	float: left;
+
+	margin-right: 10px;
+}
+
+
+#image3 {
+	width: 100px;
+
+	float: right;
+
+	margin-left: 10px;
+}
+
+#image4 {
+	width: 100px;
+
+	float: left;
+
+	margin-right: 10px;
+}
