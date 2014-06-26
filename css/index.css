@@ -1,3 +1,7 @@
+body {
+	background-image: url(/img/congruent_outline.png); 
+}
+
 .content {
 	height: 1000px;
 }
@@ -62,8 +66,10 @@ footer {
 	border-top-right-radius: 10px;
 }
 
-.p1 {left: 15px; 	top: 15px;  }
-.p2 {left: 310px; 	top: 15px;  }
-.p3 {left: 605px; 	top: 15px;  }
-.p4 {left: 15px;	top: 430px; }
+.p1 { left: 15px; 	top: 15px;  }
+.p2 { left: 310px; 	top: 15px;  }
+.p3 { left: 605px; 	top: 15px;  }
 
+.p4 { left: 15px;	top: 430px; }
+.p5 { left: 310px;	top: 430px; }
+.p6 { left: 605px;	top: 430px; }
